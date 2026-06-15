@@ -4,8 +4,7 @@ A modern, responsive, and elegant personal portfolio website showcasing my proje
 
 ## 🚀 Live Demo
 
-🔗 Portfolio: aditya-portfoli0.netlify.app
-
+🔗 Portfolio: https://aditya-portfoli0.netlify.app/
 ---
 
 ## 👨‍💻 About Me
