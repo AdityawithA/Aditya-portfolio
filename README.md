@@ -44,7 +44,7 @@ https://aditya-portfoli0.netlify.app/
 - 🛠️ Categorized technical skills
 - 📜 Certifications and licenses
 - 🎓 Education timeline
-- 📄 Two professional resumes
+- 📄 Professional resumes
 - 🔗 GitHub, LinkedIn, X, and email integration
 - 📬 Functional EmailJS contact form
 - ✨ Smooth scrolling and subtle animations
@@ -170,6 +170,27 @@ NLP-based web application for classifying messages as spam or legitimate.
 
 ---
 
+### 🏫 E-Commerce Platform
+A scalable e-commerce platform built to manage products,customers, orders, payments, inventory, and high-volume transactions efficiently in one secure system.
+
+**Tech:** Next.js • MongoDB • JWT • NodeMailer • Github
+
+**GitHub:** https://github.com/AdityawithA/Cognevance_Enterprise-E-Commerce-Analytics-Platform
+
+> E-Commerce Platform is currently not deployed publicly. A live link will be added after deployment.
+
+---
+
+### 🏫 CourseHub
+A full scalable course management system designed to efficiently manage courses,users, content, enrollments,assessments, and progress—all in one platform,built to grow with your organization.
+
+**Tech:** React • Render • Node.js • Next.js • MongoDB
+
+**GitHub:** https://github.com/AdityawithA/Cognevance_Course-Management-System  
+**Live:** https://coursehub-z4aj.onrender.com
+
+---
+
 ## 🧩 Mini Projects
 
 A collection of smaller projects built while learning and experimenting with different technologies.
@@ -258,7 +279,6 @@ portfolio/
 └── assets/
     ├── profile.jpg
     ├── resume-dev.pdf
-    ├── resume-ml.pdf
     │
     └── certificates/
         └── cognevance-certificate.pdf
