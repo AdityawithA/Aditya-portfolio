@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ask Aditya — a personal AI agent for Aditya Kumar's portfolio.">
+  <title>Ask Aditya — AI Agent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="card">
+      <header class="header">
+        <a class="back" href="../">← Back to portfolio</a>
+        <div class="identity">
+          <div class="avatar">AK</div>
+          <div>
+            <span class="eyebrow">PERSONAL AI AGENT</span>
+            <h1>Ask Aditya</h1>
+          </div>
+        </div>
+        <span class="online"><i></i> Online</span>
+      </header>
+
+      <div id="messages" class="messages" aria-live="polite">
+        <article class="message assistant">
+          <div class="bubble">
+            <strong>Hi! I'm Aditya's AI assistant.</strong>
+            <p>Ask me about his projects, skills, education, experience, or contact details.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="suggestions" aria-label="Suggested questions">
+        <button data-prompt="Tell me about Aditya.">About Aditya</button>
+        <button data-prompt="What are Aditya's strongest projects?">Best projects</button>
+        <button data-prompt="What technologies does Aditya use?">Tech stack</button>
+        <button data-prompt="Tell me about InterviewAce AI.">InterviewAce AI</button>
+        <button data-prompt="Why should I consider Aditya for a software engineering internship?">Why hire him?</button>
+      </div>
+
+      <form id="chat-form" class="composer">
+        <textarea id="prompt" rows="1" placeholder="Ask something about Aditya..." aria-label="Message"></textarea>
+        <button id="send" type="submit">Send</button>
+      </form>
+
+      <p class="note">Answers are grounded in Aditya's portfolio information. Verify important hiring details against his resume and project links.</p>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

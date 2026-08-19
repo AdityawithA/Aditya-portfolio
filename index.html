@@ -925,5 +925,61 @@
 <script src="script.js"></script>
     <script src="script.js"></script>
 
+    <!-- AI Agent Button -->
+<a href="/ai-agent/" class="ai-agent-button" aria-label="Chat with Aditya AI">
+    <span class="ai-icon">✦</span>
+    <span>Ask Aditya AI</span>
+</a>
+
+<style>
+.ai-agent-button {
+    position: fixed;
+    right: 28px;
+    bottom: 28px;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 14px 20px;
+    border-radius: 999px;
+
+    background: linear-gradient(135deg, #111827, #2563eb);
+    color: #fff;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+
+    border: 1px solid rgba(255,255,255,.2);
+    box-shadow: 0 10px 35px rgba(37,99,235,.35);
+
+    transition: all .25s ease;
+}
+
+.ai-agent-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 45px rgba(37,99,235,.5);
+}
+
+.ai-icon {
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,.15);
+}
+
+@media (max-width: 600px) {
+    .ai-agent-button {
+        right: 16px;
+        bottom: 16px;
+        padding: 12px 16px;
+    }
+}
+</style>
+
 </body>
 </html>
